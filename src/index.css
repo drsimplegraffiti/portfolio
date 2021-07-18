@@ -49,6 +49,7 @@ nav ul {
 }
 
 li {
+    color: #201820;
     display: inline;
     justify-content: space-between;
 }
@@ -88,7 +89,7 @@ a {
 }
 
 .hire-me:hover {
-    background-color: #f8a800;
+    background-color: #e69d00;
 }
 
 .brief {
@@ -102,7 +103,7 @@ a {
 
 footer {
     position: absolute;
-    background-color: #2e7d32;
+    background-color: #201820;
     width: 100%;
     margin-top: 19%;
     padding: 1rem;
@@ -129,7 +130,7 @@ footer {
 }
 
 .s-heading h1 {
-    color: #108775;
+    color: #f8a800;
     font-size: 3rem;
     font-weight: 400;
     letter-spacing: 1px;
@@ -137,7 +138,7 @@ footer {
 }
 
 .s-heading p {
-    color: #108775;
+    color: #f8a800;
     font-size: 1rem;
     margin: 5px;
     text-align: center;
@@ -164,7 +165,8 @@ footer {
     position: relative;
     color: #fff;
     box-shadow: 5px 10x #888888;
-    background-color: rgb(224, 252, 224);
+    /* background-color: rgb(224, 252, 224); */
+    background-color: hsl(41, 100%, 90%);
 }
 
 .s-box img {
@@ -172,26 +174,34 @@ footer {
 }
 
 .s-box h1 {
-    color: #108775;
+    color: #201820;
     letter-spacing: 1px;
     font-size: 1.5rem;
     margin-bottom: 8px;
 }
 
 .s-box p {
-    color: #108775;
+    color: #201820;
     text-align: center;
+}
+
+.loader {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .s-btn {
     width: 140px;
     height: 40px;
     border-radius: 20px;
-    border: 1px solid #108775;
+    border: 1px solid #f8a800;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #108775;
+    color: #f8a800;
     margin-top: 10px;
 }
 
@@ -202,7 +212,7 @@ footer {
     left: 50%;
     top: 0%;
     transform: translateX(-50%);
-    background-color: #108775;
+    background-color: #f8a800;
     border-radius: 0px 0px 10px 10px;
     display: none;
     animation: bar 0.5s;
@@ -214,8 +224,8 @@ footer {
 }
 
 .s-btn:hover {
-    background-color: #108775;
-    border: 1px solid #108775;
+    background-color: #f8a800;
+    border: 1px solid #f8a800;
     color: #FFFFFF;
     transition: all ease 0.3s;
 }
@@ -232,4 +242,114 @@ footer {
     margin-left: 18rem;
     margin-top: 3rem;
     border: rgb(126, 1, 1) 2px solid;
+}
+
+
+/* form */
+
+form {
+    background-color: #f8a800;
+    justify-self: center;
+    width: 40%;
+    margin: auto;
+    border-radius: 5%;
+    color: #fff;
+}
+
+.form-style-1 {
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.form-style-1 label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #BEBEBE;
+    padding: 7px;
+    margin: 0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus {
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+
+.form-style-1 .field-divided {
+    width: 49%;
+}
+
+.form-style-1 .field-long {
+    width: 100%;
+}
+
+.form-style-1 .field-select {
+    width: 100%;
+}
+
+.form-style-1 .field-textarea {
+    height: 100px;
+}
+
+.form-style-1 input[type=submit],
+.form-style-1 input[type=button] {
+    background: #ffffff;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #332e33;
+    border-radius: 2px;
+}
+
+.form-style-1 input[type=submit]:hover,
+.form-style-1 input[type=button]:hover {
+    background: hsl(0, 0%, 100%);
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-style-1 .required {
+    color: #ffffff;
 }

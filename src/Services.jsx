@@ -8,7 +8,7 @@ const Services = () => {
                     <section class="services">
 
         <div class="s-heading">
-            <h1>Serv<font color="#108775">ices</font>  Section</h1>
+            <h1>Serv<font color="#201820">ices</font>  Section</h1>
             <p>Read Blogs authored by me</p>
         </div>
         <div class="s-box-container">

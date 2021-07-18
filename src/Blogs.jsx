@@ -9,7 +9,7 @@ const Blogs = () => {
                     <section class="services">
 
         <div class="s-heading">
-            <h1>Blo<font color="#108775">gs</font>  Section</h1>
+            <h1>Blo<font color="#201820">gs</font>  Section</h1>
             <p>Read Blogs authored by me</p>
         </div>
         <div class="s-box-container">
