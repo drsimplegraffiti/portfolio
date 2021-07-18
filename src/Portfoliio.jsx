@@ -7,8 +7,8 @@ const Portfolio = () => {
                     <section class="services">
 
         <div class="s-heading">
-            <h1>Port<font color="#201820">folio</font>  Section</h1>
-            <p>Works done on GitHub</p>
+            <h1>Proj<font color="#201820">ects</font>  Section</h1>
+            <p>Check Out a few of my Works</p>
         </div>
         <div class="s-box-container">
 

@@ -7,7 +7,8 @@ const Footer = () => {
 
 			<div class="footer-left">
 
-                    <h3>@drsimplegraffiti<span>$</span></h3>
+				<span><img className="my-logo" src="/img/logo.png"   style = { {  width : 100 } } /></span>
+				{/* <h3>@drsimplegraffiti<span>$</span></h3> */}
 
 				<p class="footer-links">
 					<a href="/" class="link-1">Home</a>
@@ -70,3 +71,4 @@ const Footer = () => {
 }
  
 export default Footer;
+

@@ -1,5 +1,4 @@
 
-// import { BounceLoader } from 'react-spinners';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
@@ -11,17 +10,12 @@ import Contact from './Contact';
 import Aside from './Aside';
 
 
-
-
-
-
 function App() {
   return (
     <Router>
       <div className="App">
-{/* <BounceLoader size={ 24} color='#f8a800' loading/> <br />
-<BounceLoader size={ 12} color='#f8a800' loading/> <br />
-<BounceLoader size={ 6} color='#f8a800' loading/> <br /> */}
+
+{/* <BounceLoader size={ 6} color='#f8a800' loading/> <br />  */}
       <Header />
    
         <Switch>
