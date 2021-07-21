@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Carousel from 'react-bootstrap/Carousel';
+import { Lines } from 'react-preloaders2';
 import Header from './Header';
 import Footer from './Footer';
 import Resume from './Resume';
@@ -25,7 +25,8 @@ function App() {
           <Route path="/services" exact component={Services} />
           <Route path="/portfolio" exact component={Portfolio} />
           <Route path="/contact" exact component={Contact} />
-          </Switch>
+        </Switch>
+        <Lines />
         <Footer />
       </div>
       </Router>

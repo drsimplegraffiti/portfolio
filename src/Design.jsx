@@ -31,6 +31,30 @@ const images = [
     original: '/img/gallery/gallery7.jpg',
     thumbnail: '/img/gallery/gallery7.jpg',
   },
+  {
+    original: '/img/gallery/gallery8.jpg',
+    thumbnail: '/img/gallery/gallery8.jpg',
+  },
+  {
+    original: '/img/gallery/gallery9.jpg',
+    thumbnail:  '/img/gallery/gallery9.jpg',
+  },
+  {
+    original: '/img/gallery/gallery10.jpg',
+    thumbnail: '/img/gallery/gallery10.jpg',
+  },
+  {
+    original: '/img/gallery/gallery11.jpg',
+    thumbnail: '/img/gallery/gallery11.jpg',
+  },
+  {
+    original: '/img/gallery/gallery9.jpg',
+    thumbnail: '/img/gallery/gallery7.jpg',
+  },
+  {
+    original: '/img/gallery/gallery9.jpg',
+    thumbnail: '/img/gallery/gallery7.jpg',
+  },
 ];
 const Design = () => {
     return (

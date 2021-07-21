@@ -832,3 +832,15 @@ select {
 .image-gallery-left-nav:hover {
     color: hsl(41, 100%, 70%);
 }
+
+.image-gallery-thumbnail-image {
+    color: hsl(41, 100%, 70%);
+}
+
+.image-gallery-thumbnail-inner {
+    color: hsl(41, 100%, 70%);
+}
+
+.image-gallery-thumbnail.active {
+    color: hsl(41, 100%, 70%);
+}
