@@ -4,6 +4,8 @@ import Button from './Button';
 import Brief from './Brief';
 
 const Aside = () => {
+
+    
     return (
         <Spring
             from={{ opacity : 0, marginTop: -500}}

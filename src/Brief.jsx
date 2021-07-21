@@ -7,10 +7,8 @@ const Brief = () => {
 </svg>
 </div> */}
 
-            <p className="line anim-typewriter"><strong>Hello,</strong> 
-               <strong> I am Abayomi. </strong><br /> A creative <span><strong> Web Developer </strong></span> from Nigeria <br />
-                I delight in developing  usable web sites <br />for my clients. I If you are in a business seeking <br /> a web presence or an employer looking for hire, <br /> you can get in touch with me here.
-            </p>
+            <p className="subheading">SEO OPTIMIZED WEBSITE</p>
+            <p className="ad-copy">Get Awesome <br /> Website</p>
            <div class="vl"></div>
         </div>
     );

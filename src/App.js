@@ -8,6 +8,7 @@ import Blogs from './Blogs';
 import Portfolio from './Portfoliio';
 import Contact from './Contact';
 import Aside from './Aside';
+// import Designs from './Designs';
 
 
 function App() {
@@ -21,10 +22,11 @@ function App() {
         <Switch>
               <Route path="/" exact component={Aside} />
               <Route path="/resume" exact component={Resume} />
-              <Route path="/blogs" component={ Blogs}/>
-          <Route path="/services" component={Services} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
+              <Route path="/blogs"  exact component={ Blogs}/>
+          <Route path="/services" exact component={Services} />
+          <Route path="/portfolio" exact component={Portfolio} />
+          <Route path="/contact" exact component={Contact} />
+          {/* <Route path="/designs" exact component={Designs} /> */}
           </Switch>
         <Footer />
       </div>

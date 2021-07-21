@@ -14,23 +14,23 @@ const Portfolio = () => {
 
             <div class="s-box">
                 <div class="bar"></div>
-                <img alt="1" src="/img/wdp.jpg" />
+                <img className="image-size" alt="1" src="/img/wdp.jpg" />
                 <h1>Management System</h1>
-                <p>Tools: NodeJs, HandleBars, Express, MongoDb</p>
+                <p className="light">Tools: NodeJs, Express, MongoDb</p>
                 <a class="s-btn" href="https://github.com/drsimplegraffiti/wonderful-direct-pharmacy">More</a>
             </div>
             <div class="s-box">
                 <div class="bar"></div>
-                <img alt="2" src="/img/websocket.png" />
+                <img className="image-size" alt="2" src="/img/websocket.png" />
                 <h1>Tiny Chat App</h1>
-                <p>Tools: NodeJs, Socket.io</p>
+                <p className="light">Tools: NodeJs, Socket.io</p>
                 <a class="s-btn" href="https://dev.to/drsimplegraffiti/chat-app-using-socket-io-1hp0">More</a>
             </div>
             <div class="s-box">
                 <div class="bar"></div>
-                <img alt="3" src="/img/mailnodejs.jpg" />
+                <img className="image-size" alt="3" src="/img/mailnodejs.jpg" />
                 <h1>News Network Demo</h1>
-                <p>Tools: NodeJs, Express, MongoDb</p>
+                <p className="light">Tools: NodeJs, Express, MongoDb</p>
                 <a class="s-btn" href="https://github.com/drsimplegraffiti/CNN">More</a>
             </div>
         </div>

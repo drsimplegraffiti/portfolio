@@ -2,7 +2,9 @@
 const Contact = () => {
   return (
     <div>
- 
+ <div className="s-heading"> <h1>Con<font color="#201820">tact</font>  -Me</h1>
+              {/* <p>Check Out a few of my Works</p> */}
+          </div>
       <form>
 <ul class="form-style-1">
     <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
