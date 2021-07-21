@@ -16,6 +16,7 @@ const Aside = () => {
                                 <div>
                                     <aside>
                                     <img className="Title" src="/img/Title.jpg" alt="background" />
+                                    {/* <img className="Title" src="/img/banner.jpg" alt="background" /> */}
                                 </aside>
                                 <Brief />
                                 <Button />

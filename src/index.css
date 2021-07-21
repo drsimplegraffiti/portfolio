@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap'); */
+
 html {
     /* font-family: 'Poppins', sans-serif; */
     text-decoration: none !important;
@@ -6,6 +7,7 @@ html {
 }
 
 body {
+    text-decoration: none !important;
     height: calc(100vh - 8em);
     padding: 0;
     margin: 0;
@@ -800,4 +802,33 @@ select {
 .light {
     font-weight: lighter;
     font-size: 15px;
+}
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
+.swiper-container {
+    width: 60%;
+    border-right-color: rgba(255, 255, 255, 0.75);
+    /* background-color: hsl(41, 100%, 90%); */
+    /* height: 300px; */
+}
+
+
+/* .image-gallery-icon {
+    background-color: rgb(255, 239, 204);
+} */
+
+.image-gallery-right-nav {
+    color: hsl(41, 100%, 60%);
+}
+
+.image-gallery-left-nav {
+    color: hsl(41, 100%, 65%);
+}
+
+.image-gallery-right-nav:hover {
+    color: hsl(41, 100%, 70%);
+}
+
+.image-gallery-left-nav:hover {
+    color: hsl(41, 100%, 70%);
 }

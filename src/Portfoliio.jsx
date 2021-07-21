@@ -15,6 +15,7 @@ const Portfolio = () => {
             <div class="s-box">
                 <div class="bar"></div>
                 <img className="image-size" alt="1" src="/img/wdp.jpg" />
+                {/* <video className="image-size" src="/img/tinychat.mp4"></video> */}
                 <h1>Management System</h1>
                 <p className="light">Tools: NodeJs, Express, MongoDb</p>
                 <a class="s-btn" href="https://github.com/drsimplegraffiti/wonderful-direct-pharmacy">More</a>

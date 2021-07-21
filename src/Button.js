@@ -14,7 +14,7 @@ const Button = () => {
     }
 
     return ( 
-        <div>
+        <div className="bootstrap-correction">
             <button className="hire-me tooltip" ><Link to='/contact' style={buttonStyle}>Hire Me   <i class="fa fa-chevron-right" aria-hidden="true" className="tooltiptext">Fill the form </i><i class="fa fa-chevron-right" aria-hidden="true"></i></Link></button>
             <div className="bounce">
                 <ClockLoader size={ 600} color='#f8a800' loading/> <br />
