@@ -1,3 +1,4 @@
+import Fade from 'react-reveal/Fade';
 
 
 const Blogs = () => {
@@ -8,9 +9,13 @@ const Blogs = () => {
                    
                     <section class="services">
 
-        <div class="s-heading">
-            <h1>Blo<font color="#201820">gs</font>  Section</h1>
-            <p>Read Blogs authored by me</p>
+                        <div class="s-heading">
+                            <Fade top>
+                                <h1>Blo<font color="#201820">gs</font>  Section</h1>
+                            </Fade>
+                            <Fade bottom>
+                                <p>Read Blogs authored by me</p>
+                                </Fade>
         </div>
         <div class="s-box-container">
 

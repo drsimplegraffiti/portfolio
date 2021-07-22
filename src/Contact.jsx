@@ -1,6 +1,9 @@
+import Reveal from 'react-reveal/Reveal';
+
 
 const Contact = () => {
-  return (
+    return (
+      <Reveal effect="fadeInUp">
     <div>
  <div className="s-heading"> <h1>Con<font color="#201820">tact</font>  -Me</h1>
               {/* <p>Check Out a few of my Works</p> */}
@@ -29,7 +32,8 @@ const Contact = () => {
     </li>
 </ul>
 </form>
-    </div>
+            </div>
+            </Reveal>
    );
 }
  

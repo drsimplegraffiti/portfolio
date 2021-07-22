@@ -1,3 +1,5 @@
+import Fade from 'react-reveal/Fade';
+
 const Portfolio = () => {
     return (
         <div className="about-container">
@@ -6,9 +8,14 @@ const Portfolio = () => {
                    
                     <section class="services">
 
-        <div class="s-heading">
+                        <div class="s-heading">
+                            <Fade top>
             <h1>Proj<font color="#201820">ects</font>  Section</h1>
-            <p>Check Out a few of my Works</p>
+                            </Fade>
+                            
+                            <Fade bottom>
+                                <p>Check Out a few of my Works</p>
+                                </Fade>
         </div>
         <div class="s-box-container">
 
