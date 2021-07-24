@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.down {
+    text-align: center;
+    display: inline;
+    margin-left: -1rem;
+    opacity: 0.7;
+    animation: bounce 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50px);
+    }
+}

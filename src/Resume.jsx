@@ -8,7 +8,7 @@ const Resume = () => {
                 <Skills />
             <div className="resume-container">
                 <div className="resume-card">
-            <img src="/img/cv.jpg" alt="my cv"  className="cv"/>
+            <img src="/img/cv.jpg" alt="my cv"  className="cv" id="resume"/>
                 </div>
                 </div>
                                 

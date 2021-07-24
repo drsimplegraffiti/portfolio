@@ -14,7 +14,7 @@ const Header = () => {
     <div>    
             <header>
                 <Bounce>
-                    <nav >
+                    <nav>
                         <ul>
                             <div className="main-logo">
                                 <Link to="/" > <li><i class="fa fa-home" aria-hidden="true"></i> Dr. Simple</li></Link>
