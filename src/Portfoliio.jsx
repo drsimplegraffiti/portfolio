@@ -1,4 +1,6 @@
 import Fade from 'react-reveal/Fade';
+// import {Container,Row,Col,UncontrolledTooltip} from "reactstrap";
+
 
 const Portfolio = () => {
     return (
@@ -29,7 +31,7 @@ const Portfolio = () => {
             </div>
             <div class="s-box">
                 <div class="bar"></div>
-                <img className="image-size" alt="2" src="/img/websocket.png" />
+                <img className="image-size" alt="2" src="/img/tiny.jpg" />
                 <h1>Tiny Chat App</h1>
                 <p className="light">Tools: NodeJs, Socket.io</p>
                 <a class="s-btn" href="https://dev.to/drsimplegraffiti/chat-app-using-socket-io-1hp0">More</a>

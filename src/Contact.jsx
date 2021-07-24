@@ -1,9 +1,10 @@
-import Reveal from 'react-reveal/Reveal';
+// import Reveal from 'react-reveal/Reveal';
+import Zoom from 'react-reveal/Zoom';
 
 
 const Contact = () => {
     return (
-      <Reveal effect="fadeInUp">
+      <Zoom effect="fadeInUp">
     <div>
  <div className="s-heading"> <h1>Con<font color="#201820">tact</font>  -Me</h1>
               {/* <p>Check Out a few of my Works</p> */}
@@ -33,7 +34,7 @@ const Contact = () => {
 </ul>
 </form>
             </div>
-            </Reveal>
+            </Zoom>
    );
 }
  

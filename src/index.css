@@ -12,7 +12,6 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background: linear-gradient(#141e30, #243b55); */
 }
 
 .page {
@@ -653,13 +652,13 @@ select {
 /* horizontal line */
 
 .vl {
-    border-left: 3px solid #201820;
+    border-left: 3px solid hsl(300, 14%, 11%);
     opacity: 0.1;
-    height: 500px;
+    height: 300px;
     position: absolute;
     left: 50%;
     margin-left: -3px;
-    margin-top: 6rem;
+    margin-top: 10rem;
     top: 0;
     border-radius: 5px;
 }
@@ -777,7 +776,7 @@ select {
 /* web style */
 
 .web-style {
-    color: #f8a800;
+    color: hsl(41, 100%, 49%);
 }
 
 .ad-copy {
@@ -787,6 +786,12 @@ select {
     margin: 0;
     padding: 0.4rem;
     font-family: 'Poppins', sans-serif;
+    /* stroke effects */
+    /* background: linear-gradient(-45deg, hsl(41, 100%, 49%), hsl(41, 100%, 49%), hsl(41, 100%, 49%), hsl(41, 100%, 49%));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 8px transparent; */
 }
 
 .subheading {
@@ -843,4 +848,12 @@ select {
 
 .image-gallery-thumbnail.active {
     color: hsl(41, 100%, 70%);
+}
+
+
+/* Nav spacing */
+
+.main-logo {
+    margin-right: 23.7rem;
+    margin-left: 3rem;
 }

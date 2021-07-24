@@ -1,4 +1,4 @@
-import{ Zoom, Bounce, Slide  }from 'react-reveal';
+import{ Zoom, Slide  }from 'react-reveal';
 
 
 const Brief = () => {

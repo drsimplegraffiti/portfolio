@@ -9,6 +9,8 @@ import Portfolio from './Portfoliio';
 import Contact from './Contact';
 import Aside from './Aside';
 import Design from './Design';
+// import Skills from "./Skills";
+
 
 function App() {
   return (
