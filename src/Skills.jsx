@@ -7,7 +7,7 @@ const Skills = () => {
     return (
         <div className={SkillMode.skillsContainer}>
             <div className={SkillMode.styling}>
-                <h1>What I do</h1>
+                <h1>My Skills</h1>
                 <div className={Arrow.down} id="#resume"><a href="#resume"><div className="ball"><img src="/img/hand.png" alt="expand button" /></div></a></div>
 
                 <p>FULL STACK DEVELOPER THAT LOVES EXPLORING STACKS</p>

@@ -12,7 +12,7 @@ const Portfolio = () => {
 
                         <div class="s-heading">
                             <Fade top>
-            <h1>Proj<font color="#201820">ects</font>  Section</h1>
+            <h1 className="project-font">Proj<font color="#201820">ects</font>  Section</h1>
                             </Fade>
                             
                             <Fade bottom>

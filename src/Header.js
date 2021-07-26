@@ -14,18 +14,22 @@ const Header = () => {
     <div>    
             <header>
                 <Bounce>
+                    <div class="toggle"></div>
                     <nav>
                         <ul>
-                            <div className="main-logo">
-                                <Link to="/" > <li><i class="fa fa-home" aria-hidden="true"></i> Dr. Simple</li></Link>
+                            <div className="main-logo active">
+                                <Link to="/" > <li><i class="fa fa-home" aria-hidden="true"></i> Ximple</li></Link>
                                 </div>
-                                    <Link to="/resume"> <li className={LightCSS.resize}>Resume</li></Link>
-                                    <Link to="/designs" > <li  className={LightCSS.resize}>Graphics</li></Link>
-                                    <Link to="/portfolio" > <li  className={LightCSS.resize}>Projects</li></Link>
-                                    <Link to="/blogs" > <li  className={LightCSS.resize}>Blogs</li></Link>
-                                    <Link to="/contact" > <li  className={LightCSS.resize}>Contact</li></Link>
+                                    <Link to="/resume" id="myLinks"> <li className={LightCSS.resize}>Resume</li></Link>
+                                    <Link to="/designs" id="myLinks"> <li  className={LightCSS.resize}>Graphics</li></Link>
+                                    <Link to="/portfolio" id="myLinks"> <li  className={LightCSS.resize}>Projects</li></Link>
+                                    <Link to="/blogs" id="myLinks"> <li  className={LightCSS.resize}>Blogs</li></Link>
+                                    <Link to="/contact" id="myLinks"> <li  className={LightCSS.resize}>Contact</li></Link>
                         </ul>
                     </nav>
+           {/* <Link to="javascript:void(0);" className="icon" onClick="myFunction()"> */}
+    {/* <i class="fa fa-bars"></i> */}
+  {/* </Link> */}
                     </Bounce>
         </header>
     </div>

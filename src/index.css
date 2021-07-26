@@ -877,3 +877,130 @@ select {
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
+
+
+/* responsiveness */
+
+@media(max-width:480px) {
+    body {
+        width: 100%;
+        /* max-width: 480px;
+        margin: auto; */
+    }
+    .fa-home {
+        visibility: hidden;
+    }
+    #myLinks {
+        display: none;
+    }
+    .vl {
+        border-left: 2px solid hsl(300, 14%, 11%);
+        opacity: 0.1;
+        height: 80px;
+        position: absolute;
+        left: 50%;
+        margin-left: 17px;
+        margin-top: 7.8rem;
+        top: 0;
+        border-radius: 5px;
+    }
+    .my-logo {
+        width: 2px;
+    }
+    footer {
+        position: absolute;
+        margin-top: 150px;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-center {
+        display: inline-block;
+        line-height: 10px;
+        text-align: center;
+    }
+    .footer-distributed {
+        width: 320px;
+        /* margin: auto; */
+        text-align: center;
+        list-style: 0.3rem;
+        text-align: center;
+        line-height: 2px;
+    }
+    .footer-left {
+        line-height: 8px;
+        text-align: center;
+    }
+    .footer-right {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .footer-company-about {
+        line-height: 3px;
+        margin: 0;
+        text-align: center;
+    }
+    header {
+        width: 100%;
+    }
+    .Title {
+        width: 72%;
+        margin-left: -1.5rem;
+    }
+    .ad-copy {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    .subheading {
+        font-size: 0.5rem;
+    }
+    /* .project-font {
+        font-size: 0.3 !important;
+        text-align: center !important;
+        line-height: 3rem !important;
+    } */
+    .footer-links {
+        /* text-align: center !important; */
+        margin-left: -1rem !important;
+        width: 260px;
+    }
+    .hire-me {
+        width: 100px;
+        padding: 0.3rem;
+        margin-bottom: 1.9rem;
+        font-size: 0.8rem;
+    }
+    .main-logo {
+        /* display: flex; */
+        margin-top: 0;
+        margin-left: 5rem;
+        width: 20px;
+        /* height: 0px; */
+    }
+    li {
+        font-size: 14px;
+        overflow: hidden;
+    }
+    .cv {
+        width: 320px;
+    }
+}
+
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    /* background: url('./img/gallery/menu.png'); */
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.toggle.active {
+    background: url('https://i.ibb.co/rt3HybH/close.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+    cursor: pointer;
+}

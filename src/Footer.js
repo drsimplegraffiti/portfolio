@@ -31,7 +31,7 @@ const Footer = () => {
 
 				<div>
 					<i class="fa fa-map-marker"></i>
-					<p><span>Abeokuta</span> Ogun-State, Nigeria</p>
+					<p>Ogun-State, Nigeria</p>
 				</div>
 
 				<div>
@@ -41,7 +41,7 @@ const Footer = () => {
 
 				<div>
 					<i class="fa fa-envelope"></i>
-					<p><a href="abayomiogunnusi@gmail.com">abayomiogunnusi@gmail.com</a></p>
+					<p><a href="abayomiogunnusi@gmail.com">ximple@gmail.com</a></p>
 				</div>
 
 			</div>

@@ -18,7 +18,7 @@ const Aside = () => {
                                 <Zoom>
                                     <aside>
                                     <img className="Title" src="/img/Title.jpg" alt="background" />
-                                    {/* <img className="Title" src="/img/banner.jpg" alt="background" /> */}
+                                    {/* <img className="Title" src="/img/anime.gif" alt="background" /> */}
                             </aside>
                             </Zoom> 
                                 <Brief />
