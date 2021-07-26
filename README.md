@@ -1,3 +1,3 @@
 # Portfoliio
 
-## Tools Used: ReactJS, NPM
+## Tools Used: ReactJS, NPM, CSS
