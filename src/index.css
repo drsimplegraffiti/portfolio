@@ -908,12 +908,29 @@
             transition: all 0.5s ease;
             z-index: 1;
         }
+        #skill_id {
+            padding-top: 2rem;
+            width: 80%;
+            margin: auto;
+            padding-bottom: 0.1rem;
+        }
+        .heading {
+            display: none;
+        }
+        .full-stack {
+            text-align: center;
+            width: 80%;
+            margin-left: -5.4rem;
+        }
         .ad-copy {
             font-size: 1rem;
             line-height: 1.3rem;
         }
         .cv {
-            width: 320px;
+            padding-top: 2rem;
+            width: 80%;
+            margin: auto;
+            padding-bottom: 0.1rem;
         }
         .hire-me {
             width: 100px;
@@ -958,7 +975,7 @@
         .pointing-finger {
             text-align: center;
             font-size: 1.5rem;
-            margin-left: -9rem;
+            margin-left: -48%;
         }
         .footer-center {
             display: inline-block;
@@ -981,6 +998,13 @@
             display: flex;
             flex-wrap: wrap;
         }
+        /* .appContainer {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 1px;
+            margin: 2px;
+        } */
         .s-heading h1 {
             font-size: 2.5rem;
         }
@@ -992,6 +1016,9 @@
             margin-bottom: 0;
             border-radius: 10px;
         }
+        /* .skillsContainer {
+            display: none;
+        } */
         .main-logo {
             margin-top: 0;
             margin-left: 1.2rem;

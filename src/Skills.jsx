@@ -5,14 +5,14 @@ import Arrow from './Arrow.module.css';
 
 const Skills = () => {
     return (
-        <div className={SkillMode.skillsContainer}>
+        <div className={SkillMode.skillsContainer} id="skill_id">
             <div className={SkillMode.styling}>
                 <h1 className="heading"> My Skills</h1>
                 <div className={Arrow.down} id="#resume"><a href="#resume"><div className="ball"><img className="pointing-finger" src="/img/hand.png" alt="expand button" /></div></a></div>
 
-                <p>FULL STACK DEVELOPER THAT LOVES EXPLORING STACKS</p>
+                <p className="full-stack">FULL STACK DEVELOPER THAT LOVES EXPLORING STACKS</p>
                 </div>
-                <h3>Languages and Tools:</h3>
+                <h3 className="language">Languages and Tools:</h3>
                 
             <p>
                 🎯 Develop highly interactive Front end / User Interfaces for your web and mobile applications <br />
