@@ -1,6 +1,7 @@
 /* skills container */
 
 .skillsContainer {
+    padding-top: 3rem;
     text-align: center;
     line-height: 2rem;
 }

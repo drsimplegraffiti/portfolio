@@ -14,7 +14,7 @@ const Aside = () => {
           >
                 {props=>(
                 <div style={props}>
-                    <div>
+                    <div className="aside-container">
                                 <Zoom>
                                     <aside>
                                     <img className="Title" src="/img/Title.jpg" alt="background" />
