@@ -1025,3 +1025,76 @@
             width: 20px;
         }
     }
+    
+    @media screen and (max-width:768px) {
+        .vl {
+            display: none;
+        }
+        .subheading {
+            font-size: 0.9rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .ad-copy {
+            margin-left: -4%;
+            font-size: 4rem;
+            line-height: 4.3rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .hire-me {
+            width: 29%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            /* margin-left: 50%; */
+            left: 30%;
+        }
+        .Title {
+            width: 60%;
+            margin-top: 2rem;
+            display: none;
+        }
+    }
+    
+    @media (min-width:320px) and (max-width:480px) {
+        .vl {
+            display: none;
+        }
+        .subheading {
+            font-size: 0.7rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .ad-copy {
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            left: 25%;
+        }
+        .brief {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            position: 50%;
+        }
+        .hire-me {
+            display: flex;
+            width: 29%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            /* margin-left: 50%; */
+            left: 30%;
+        }
+        .Title {
+            width: 60%;
+            margin-top: 2rem;
+            display: none;
+        }
+    }

@@ -1,4 +1,6 @@
 import{ Zoom, Slide  }from 'react-reveal';
+import Typed from 'react-typed';
+
 
 
 const Brief = () => {
@@ -6,7 +8,7 @@ const Brief = () => {
     return (
         <div className="brief">
                 <Zoom>
-                        <p className="subheading">SEO OPTIMIZED WEBSITE</p>
+                <p className="subheading"><Typed strings={['SEO OPTIMIZED WEBSITE']} typeSpeed={80} /></p>
             </Zoom>
             <Slide left>
                 <p className="ad-copy">Get Awesome <br /> Website</p>

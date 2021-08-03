@@ -17,7 +17,7 @@ const Aside = () => {
                     <div className="aside-container">
                                 <Zoom>
                                     <aside>
-                                    <img className="Title" src="/img/Title.jpg" alt="background" />
+                                    <img className="Title" src="/img/Title.jpg" alt="background"  id="main-image" />
                                     {/* <img className="Title" src="/img/anime.gif" alt="background" /> */}
                             </aside>
                             </Zoom> 
