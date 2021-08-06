@@ -46,12 +46,10 @@ const Footer = () => {
 				</div>
 
 			</div>
-
 			<div class="footer-right">
-
 				<p class="footer-company-about">
 					<span id="about-me">About Abayomi</span>
-					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+					A full stack web developer with skills to develop complete web apps including front-end and back-end parts.
 				</p>
 
 				<div class="footer-icons">

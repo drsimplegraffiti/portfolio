@@ -19,21 +19,21 @@ const Blogs = () => {
 
             <div class="s-box">
                 <div class="bar"></div>
-                <img alt="1" src="/img/broswerpage.jpg" />
+                <img alt="1" src="/img/broswerpage.jpg" loading="lazy"  />
                 <h1>Generate Invoice</h1>
                 <p>Use JavaScript to download browser page</p>
                 <a class="s-btn" href="https://dev.to/drsimplegraffiti/generate-invoice-pdf-dmd">More</a>
             </div>
             <div class="s-box">
                 <div class="bar"></div>
-                <img alt="2" src="/img/websocket.png" />
+                <img alt="2" src="/img/websocket.png" loading="lazy" />
                 <h1>Socket.io</h1>
                 <p>Use Web Socket to create real-time chat app</p>
                 <a class="s-btn" href="https://dev.to/drsimplegraffiti/chat-app-using-socket-io-1hp0">More</a>
             </div>
             <div class="s-box">
                 <div class="bar"></div>
-                <img alt="3" src="/img/mailnodejs.jpg" />
+                <img alt="3" src="/img/mailnodejs.jpg" loading="lazy" />
                 <h1>Node Mailer</h1>
                 <p>Use Node Mailer to send mails to client</p>
                 <a class="s-btn" href="https://dev.to/drsimplegraffiti/send-mails-using-nodejs-42ag">More</a>
