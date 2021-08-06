@@ -6,9 +6,7 @@ const Blogs = () => {
         <div className="about-container">
             <div className="card-container">
                 <div className="card">
-                   
                     <section class="services">
-
                         <div class="s-heading">
                             <Fade top>
                                 <h1>Blo<font color="#201820">gs</font>  Section</h1>

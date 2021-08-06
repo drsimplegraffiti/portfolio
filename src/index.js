@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -10,9 +10,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <Router>
-  <React.StrictMode>
+  {/* <React.StrictMode> */}
       <App />
-    </React.StrictMode>
+    {/* </React.StrictMode> */}
     </Router>,
   document.getElementById('root')
 );

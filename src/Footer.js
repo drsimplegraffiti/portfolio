@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 
 
@@ -9,7 +8,7 @@ const Footer = () => {
 
 			<div class="footer-left">
 
-				<span><img className="my-logo" src="/img/logo.png"   style = { {  width : 100 } } /></span>
+				<span><img alt="myLogo" className="my-logo" src="/img/logo.png"   style = { {  width : 100 } } /></span>
 				{/* <h3>@drsimplegraffiti<span>$</span></h3> */}
 
 				<p class="footer-links">
