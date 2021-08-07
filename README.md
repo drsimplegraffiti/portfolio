@@ -3,10 +3,7 @@
 
 https://user-images.githubusercontent.com/70065792/128037852-ae6b779c-0431-4f7e-ab50-424fc5bd5ad0.mp4
 
-# Portfoliio
-
-## Tools Used: ReactJS, NPM, CSS
-
+# Web Developer Portfoliio
 
 
 <p align="center"><a href="#" target="_blank" rel="noopener noreferrer"><img width="100" src="https://user-images.githubusercontent.com/70065792/128612679-93947f21-d798-4105-ae71-a9ab6e62a70c.png" alt="ximple logo"></a></p>
@@ -38,7 +35,7 @@ The following technologies were used to create this project:
 
 <p align="center">
   <a href="#">
-    <img width="260px" src="https://user-images.githubusercontent.com/70065792/128613139-dd388e11-7ac6-407c-bc81-59e41d8ec582.png">
+    <img width="260px" src="https://user-images.githubusercontent.com/70065792/128613182-28bb6d7f-86f0-47e9-a578-f0d25ffe6594.jpg">
   </a>
 </p>
 
@@ -47,7 +44,7 @@ The following technologies were used to create this project:
 <!--Libraries-->
 <p align="center">
   <a href="#">
-    <img width="260px" src="https://user-images.githubusercontent.com/70065792/128612971-1d7ef4b5-34df-4e93-a996-1b9c652b038c.png">
+    <img width="260px" src="https://user-images.githubusercontent.com/70065792/128613139-dd388e11-7ac6-407c-bc81-59e41d8ec582.png">
   </a>
 </p>
 
