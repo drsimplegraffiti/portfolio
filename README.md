@@ -1,5 +1,6 @@
 
 
+
 https://user-images.githubusercontent.com/70065792/128037852-ae6b779c-0431-4f7e-ab50-424fc5bd5ad0.mp4
 
 # Portfoliio
@@ -7,27 +8,26 @@ https://user-images.githubusercontent.com/70065792/128037852-ae6b779c-0431-4f7e-
 ## Tools Used: ReactJS, NPM, CSS
 
 
-<p align="center"><a href="#" target="_blank" rel="noopener noreferrer"><img width="100" src="READMEimage/squirrelAppIcon.png" alt="Kerthin logo"></a></p>
+
+<p align="center"><a href="#" target="_blank" rel="noopener noreferrer"><img width="100" src="https://user-images.githubusercontent.com/70065792/128612679-93947f21-d798-4105-ae71-a9ab6e62a70c.png" alt="ximple logo"></a></p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status"></a>
   <a href="#"><img src="https://img.shields.io/badge/npm-v6.14.4-blue.svg" alt="Version"></a>
   <a href="#"><img src="https://img.shields.io/badge/node-v10.16.0-blue.svg" alt="Version"></a> <br>
-  <a href="#"><img src="https://img.shields.io/badge/repo%20size-742.5%20MB-green.svg" alt="Size"></a>
-  <a href="#"><img src="https://img.shields.io/badge/project%20version-v0.8-blue.svg" alt="Version"></a>
 </p>
 
 <h2 align="center">Description</h2>
 
-The template is a site for viewing the works of great artists represented in the famous Prado Museum. You can also find out information about the painting and the artist himself.
+The template is a site for web developer portfolio. You can revamp and refactor to sui your need.
 - To launch the app:
-  - download the repository;
-  - log in to the downloaded repository using the command line or terminal;
-  - enter the command line 'npm run start' or 'serve-s build' and go to the address specified in the terminal.
+  - Clone/download the repository;
+  - Change directory to the downloaded repository using the command line or terminal;
+  - Enter the command line 'npm run dev' and go to the address specified in the terminal.
 
-* Note that the project was made using the CREATE REACT APP.
+* Note that the project was made using the CREATE REACT APP i.e npx create-react-app .
 
-- [Demo](https://kerthin.github.io/pradoMuseum-templateSait/)
+- [Demo](https://portfolio-liart-one-11.vercel.app/)
 
 #### Use technology.
 
@@ -38,7 +38,7 @@ The following technologies were used to create this project:
 
 <p align="center">
   <a href="#">
-    <img width="260px" src="READMEimage/technology/nodejs-1.svg">
+    <img width="260px" src="https://user-images.githubusercontent.com/70065792/128613139-dd388e11-7ac6-407c-bc81-59e41d8ec582.png">
   </a>
 </p>
 
@@ -47,7 +47,7 @@ The following technologies were used to create this project:
 <!--Libraries-->
 <p align="center">
   <a href="#">
-    <img width="260px" src="READMEimage/technology/react.svg">
+    <img width="260px" src="https://user-images.githubusercontent.com/70065792/128612971-1d7ef4b5-34df-4e93-a996-1b9c652b038c.png">
   </a>
 </p>
 
@@ -56,7 +56,7 @@ The following technologies were used to create this project:
 <!--Package manager-->
 <p align="center">
   <a href="#">
-    <img width="144px" src="READMEimage/technology/npm.svg">
+    <img width="144px" src="https://user-images.githubusercontent.com/70065792/128612981-ce602cc9-2f21-45fd-9a21-857d551ddb26.jpg">
   </a>
 </p>
 
@@ -84,142 +84,20 @@ The following technologies were used to create this project:
 - `npm run start` - this command starts the project from the local 'src' repository where you work on the entire product;
 - `serve -s build` - this command starts the project from the local 'build' repository where the finished and assembled project is located for release in production.
 
-## Appearance
-
-The image of the website:
-
-- Gif
-
-#### Gif
-
-  - Image Choise <br>
-  <a href="#"><img src="READMEimage/gif/imageChoose.gif" /></a>
-
-  - Synopsis <br>
-  <a href="#"><img src="READMEimage/gif/synopsis.gif" /></a>
-
-  - Horizontal Scroll <br>
-  <a href="#"><img src="READMEimage/gif/imageChoose.gif" /></a>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  # [enquire.js](http://wickynilliams.github.com/enquire.js/) - Awesome Media Queries in JavaScript
-
-[![Build Status](https://travis-ci.org/WickyNilliams/enquire.js.svg)](https://travis-ci.org/WickyNilliams/enquire.js)
-
-`enquire.js` is a lightweight, pure javascript library (with **no dependencies**) for programmatically responding to media queries.
-
-## Getting enquire.js
-
-### Download
-
-Get the latest build, ready to go:
-
- * [Development](https://github.com/WickyNilliams/enquire.js/raw/master/dist/enquire.js) - unminified
-
- * [Production](https://github.com/WickyNilliams/enquire.js/raw/master/dist/enquire.min.js) - minified
-
-### Install via Bower
-
-To install via bower, enter the following at the command line:
-
-    bower install enquire
 
 ### Install via npm
 
 To install via npm, enter the following at the command line:
 
-    npm install enquire.js
-
-### Build From Source
-
-If you want build from source (and run all unit tests etc):
-
-    git clone git://github.com/WickyNilliams/enquire.js.git
-
-    cd enquire.js
-
-    npm install
-
-    grunt
-
-Booya!
-
-## Quick Start
-
-The main method you will be dealing with is `register`. It's basic signature is as follows:
-
-```javascript
-
-enquire.register(query /* string */, handler /* object || array  || function */);
-
-```
-
-`query` is the CSS media query you wish to respond to, and `handler` is an object containing any logic to handle the query. An example of usage is as follows:
-
-```javascript
-
-enquire.register("screen and (max-width:1000px)", {
-
-    match : function() {},      // OPTIONAL
-
-                                // If supplied, triggered when the media query transitions
-
-                                // *from an unmatched to a matched state*
-
-    unmatch : function() {},    // OPTIONAL
-
-                                // If supplied, triggered when the media query transitions
-
-                                // *from a matched state to an unmatched state*.
-
-                                // Also may be called when handler is unregistered (if destroy is not available)
-
-    setup : function() {},      // OPTIONAL
-
-                                // If supplied, triggered once immediately upon registration of the handler
-
-    destroy : function() {},    // OPTIONAL
-
-                                // If supplied, triggered when handler is unregistered. Place cleanup code here
-
-    deferSetup : true           // OPTIONAL, defaults to false
-
-                                // If set to true, defers execution the setup function
-
-                                // until the media query is first matched. still triggered just once
-
-});
-
-```
-
-This should be enough to get you going, but **please read the full [enquire.js documentation](http://wickynilliams.github.com/enquire.js/)** if you wish to learn about the other cool features.
-
 ## Contributing
 
-* Got an awesome idea?
+* Want to contribute (refactor or revamp)?
 
-* Found a *not-so*-awesome bug?
+* Want to fix an awesome bug?
 
-* Wish to get my attention through an inappropriate communication channel?!
 
-Then please don't hesitate to raise an issue, they will *all* be looked at and tended to.
+Kindly raise an issue, they will *all* be looked at and attended to.
 
 And for all the cool cats who are prepared to give their time to contribute code, feel free to open a pull request. If you could write unit tests to accompany your pull request that would be pretty sweet, but no worries if not - if it's good enough to be merged in, it's good enough for me to spend a little time to write tests on your behalf :-)
 
-## License
 
-License: MIT (http://www.opensource.org/licenses/mit-license.php)
-
-  - Vertical Scroll <br>
-  <a href="#"><img src="READMEimage/gif/verticalScroll.gif" /></a>
