@@ -8,7 +8,6 @@
     html {
         /* font-family: 'Poppins', sans-serif; */
         text-decoration: none !important;
-        /* overflow: hidden; */
     }
     
     body {
@@ -835,24 +834,6 @@
         animation-direction: alternate;
         animation-iteration-count: infinite;
     }
-    /* If you don't want the footer to be responsive, remove these media queries */
-    
-    @media (max-width: 880px) {
-        .footer-distributed {
-            font: bold 14px sans-serif;
-        }
-        .footer-distributed .footer-left,
-        .footer-distributed .footer-center,
-        .footer-distributed .footer-right {
-            display: block;
-            width: 100%;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-        .footer-distributed .footer-center i {
-            margin-left: 0;
-        }
-    }
     
     @media screen and (max-width: 960px) {
         .nav-menu {
@@ -867,6 +848,10 @@
             transition: all 0.5s ease;
             z-index: -20;
             margin-left: -1.5rem;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
         }
         .fa-home {
             visibility: hidden;
@@ -877,6 +862,10 @@
             width: 80%;
             margin: auto;
             border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
         }
         .vl {
             border-left: 2px solid hsl(300, 14%, 11%);
@@ -905,6 +894,10 @@
             opacity: 1;
             transition: all 0.5s ease;
             z-index: 1;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
         }
         #skill_id {
             padding-top: 2rem;
@@ -964,6 +957,10 @@
             cursor: pointer;
             color: #201820;
             z-index: 40;
+            -webkit-transform: translate(-100%, 60%);
+            -moz-transform: translate(-100%, 60%);
+            -ms-transform: translate(-100%, 60%);
+            -o-transform: translate(-100%, 60%);
         }
         .heading {
             text-align: center;
@@ -1013,6 +1010,10 @@
             margin: auto;
             margin-bottom: 0;
             border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
         }
         /* .skillsContainer {
             display: none;
@@ -1021,6 +1022,24 @@
             margin-top: 0;
             margin-left: 1.2rem;
             width: 20px;
+        }
+    }
+    /* If you don't want the footer to be responsive, remove these media queries */
+    
+    @media (max-width: 880px) {
+        .footer-distributed {
+            font: bold 14px sans-serif;
+        }
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .footer-distributed .footer-center i {
+            margin-left: 0;
         }
     }
     
@@ -1100,5 +1119,68 @@
             width: 60%;
             margin-top: 2rem;
             display: none;
+        }
+    }
+    
+    @media (max-width:414px) {}
+    
+    @media (max-width:375px) {}
+    
+    @media (max-width:320px) {
+        .footer-links,
+        .footer-company-name,
+        .footer-center,
+        .footer-right {
+            font-size: .9em;
+            text-align: center;
+        }
+        .ball {
+            margin-top: -2%;
+            margin-bottom: -5%;
+            margin-left: -6rem;
+        }
+        .main-logo {
+            margin-right: 95%;
+        }
+        .nav-links {
+            margin-bottom: 3%;
+        }
+        .s-heading h1 {
+            font-size: 1.5em;
+        }
+        .s-heading p {
+            font-size: 1em;
+        }
+        .aside-container {
+            margin-left: -2.5rem;
+        }
+        .hire-me {
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            margin-left: -1rem;
+            padding: 15px 0px 15px 0px;
+        }
+        form {
+            padding: 0px 10px 0px 10px;
+            margin-bottom: -5rem;
+        }
+        .s-box-container {
+            margin-top: -300px;
+            width: 200px;
+            height: 150px;
+        }
+        .s-box {
+            padding: 0px 40px 0px 40px;
+        }
+        .s-box h1 {
+            font-size: 1.2rem;
+        }
+        .light {
+            font-size: 0.9rem;
+        }
+        .s-heading {
+            margin-top: -55rem;
+            margin-top: -120rem;
         }
     }

@@ -21,6 +21,15 @@
     border-radius: 50%;
 }
 
+@media (max-width:320px) {
+    .imgContainer {
+        margin: 0;
+    }
+    .styling p {
+        visibility: hidden;
+    }
+}
+
 .styling {
     font-family: 'poppins';
     box-shadow: 1px 2px 1px 1px rgba(201, 151, 151, 0.12);
