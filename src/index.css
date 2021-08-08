@@ -1027,6 +1027,38 @@
     /* If you don't want the footer to be responsive, remove these media queries */
     
     @media (max-width: 880px) {
+        .vl {
+            display: none;
+        }
+        .Title {
+            width: 60%;
+            display: none;
+        }
+        .hire-me {
+            width: 29%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            /* margin-left: 0%; */
+            padding: 15px 0;
+            margin-left: 23rem;
+        }
+        .hire-me a {
+            font-size: 1.2rem;
+        }
+        .subheading {
+            font-size: 1.1rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .ad-copy {
+            z-index: 1;
+            text-align: center;
+            margin-left: 1%;
+            font-size: 4rem;
+            line-height: 4.3rem;
+        }
         .footer-distributed {
             font: bold 14px sans-serif;
         }
@@ -1061,6 +1093,9 @@
             justify-content: center;
             align-items: center;
         }
+        .hire-me a {
+            font-size: 1.3rem;
+        }
         .hire-me {
             width: 29%;
             text-align: center;
@@ -1068,6 +1103,7 @@
             align-items: center;
             /* margin-left: 50%; */
             left: 30%;
+            padding: 15px 0;
         }
         .Title {
             width: 60%;
@@ -1077,6 +1113,15 @@
     }
     
     @media (max-width:600px) {
+        .hire-me a {
+            font-size: 1.2rem;
+        }
+        .main-logo {
+            margin-right: 95%;
+        }
+        .nav-links {
+            margin-bottom: 3%;
+        }
         .vl {
             display: none;
         }
@@ -1087,14 +1132,14 @@
             color: blue;
         }
         .subheading {
-            font-size: 0.7rem;
+            font-size: 1rem;
             text-align: center;
             justify-content: center;
             align-items: center;
         }
         .ad-copy {
-            font-size: 1.8rem;
-            line-height: 2.5rem;
+            font-size: 3rem;
+            line-height: 3.5rem;
             text-align: center;
             justify-content: center;
             align-items: center;
@@ -1122,9 +1167,71 @@
         }
     }
     
-    @media (max-width:414px) {}
-    
-    @media (max-width:375px) {}
+    @media (max-width:414px) {
+        form {
+            width: 400px;
+            display: contents;
+        }
+        .s-heading {
+            /* margin-top: -55rem; */
+            /* delete for heading */
+            margin-top: -140rem;
+        }
+        .s-box-container {
+            margin-top: -300px;
+            width: 350px;
+            height: 150px;
+        }
+        .s-box {
+            padding: 0px 40px 0px 40px;
+        }
+        .s-box h1 {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        .s-box-container {
+            margin-left: 1.3rem;
+        }
+        .hire-me a {
+            font-size: 1rem;
+        }
+        .subheading {
+            font-size: 0.9rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .ad-copy {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            left: 25%;
+        }
+        .nav-links {
+            margin-bottom: 3%;
+        }
+        .full-stack {
+            visibility: hidden;
+        }
+        .s-heading h1 {
+            font-size: 1.5em;
+        }
+        .s-heading p {
+            font-size: 1em;
+        }
+        .aside-container {
+            margin-left: -2.8rem;
+        }
+        .hire-me {
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin-left: .2rem;
+            padding: 12px 0px 12px 0px;
+        }
+    }
     
     @media (max-width:320px) {
         .footer-links,
@@ -1175,12 +1282,17 @@
         }
         .s-box h1 {
             font-size: 1.2rem;
+            text-align: center;
+        }
+        .s-box-container {
+            margin-left: 2.6rem;
         }
         .light {
             font-size: 0.9rem;
         }
         .s-heading {
             margin-top: -55rem;
+            /* delete for heading */
             margin-top: -120rem;
         }
     }
