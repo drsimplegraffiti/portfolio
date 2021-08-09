@@ -1,39 +1,21 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Lines } from 'react-preloaders2';
-import Header from './Header';
-import Footer from './Footer';
-import Resume from './Resume';
-import Services from './Services';
-import Blogs from './Blogs';
-import Portfolio from './Portfoliio';
-import Contact from './Contact';
-import Aside from './Aside';
-import Design from './Design';
-// import Skills from "./Skills";
+import Main from './components/Main';
+import Navbar from './components/Navbar'; 
+import Navbar2 from './components/Navbar2'; 
+import Footer from './components/Footer';
+import React,{useState} from 'react';
 
-
-function App() {
-  return (
-    <Router>
-      <div className="App">
-
-{/* <BounceLoader size={ 6} color='#f8a800' loading/> <br />  */}
-      <Header />
-        <Switch>
-              <Route path="/" exact component={Aside} />
-          <Route path="/designs" exact component={Design} />
-              <Route path="/resume" exact component={Resume} />
-              <Route path="/blogs"  exact component={ Blogs}/>
-          <Route path="/services" exact component={Services} />
-          <Route path="/portfolio" exact component={Portfolio} />
-          <Route path="/contact" exact component={Contact} />
-        </Switch>
-        <Lines />
-        <Footer />
-      </div>
-      </Router>
-
-      
+const App = () => {
+    const [hide, setHide] = useState();
+    return (
+        <>
+        <Navbar />
+            {/* <Navbar2/> */}
+        <Main />
+            <Footer />
+            <Lines />
+            </>
+        
     );
 }
 
