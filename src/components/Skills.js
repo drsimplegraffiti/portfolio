@@ -9,8 +9,9 @@ const Skills = () => {
 
                 <div className="skills__container bd-grid">          
                     <div>
-                        <h2 className="skills__subtitle">Profesional Skills</h2>
-                        <p className="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <h2 className="skills__subtitle">Professional Skills</h2>
+                        <p className="skills__text">My tools and Languages are :
+HTML5, CSS3, JavaScript, NodeJs, ExpressJs, MongodB, React Js, Bootstrap, Postman.</p>
                         <div className="skills__data">
                             <div className="skills__names">
                                 <i className='bx bxl-react skills__icon'></i>

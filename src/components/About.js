@@ -14,7 +14,7 @@ const About = () => {
                     
                     <div>
                         <h2 class="about__subtitle">I'am Abayomi</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <p class="about__text">I work to create innovative solutions that inspires and foster memorable relationships between brands ands and their clients. With focus in Backend and FrontEnd Development, I strive to create scalable and reusable products through elegant but efficient codes and modern web practices.</p>           
                     </div>                                   
                 </div>
                 </section>

@@ -10,15 +10,15 @@ const Projects = () => {
 
                 <div class="work__container bd-grid">
                     <div class="work__img">
-                        <img src="/img/tiny.JPG" alt="" />
+                        <a href="/https://github.com/drsimplegraffiti/tiny"><img src="/img/tiny.JPG" alt="" /></a>
                         <p>Chat App Using WebSocket</p>
                     </div>
                     <div class="work__img">
-                        <img src="/img/websocket.png" alt="" />
+                      <a href="/https://github.com/drsimplegraffiti/wonderful-direct-pharmacy"> <img src="/img/websocket.png" alt="" /></a> 
                         <p>Pharmacy Management System</p>
                     </div>
                     <div class="work__img">
-                        <img src="/img/broswerpage.jpg" alt="" />
+                        <a href="/https://github.com/drsimplegraffiti/Cray_News"><img src="/img/broswerpage.jpg" alt="" /></a>
                         <p>Cray News Network</p>
                     </div>
                 </div>

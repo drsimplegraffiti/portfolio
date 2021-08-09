@@ -11,8 +11,8 @@ const Home = () => {
                 </div>
 
                 <div className="home__social">
-                    <a href="/" className="home__social-icon"><i className='bx bxl-linkedin'></i></a>
-                    <a href="/" className="home__social-icon"><i class='bx bxl-dev-to'></i></a>
+                    <a href="/https://www.linkedin.com/in/abayomi-ogunnusi-974826141/" className="home__social-icon"><i className='bx bxl-linkedin'></i></a>
+                    <a href="/https://dev.to/drsimplegraffiti" className="home__social-icon"><i class='bx bxl-dev-to'></i></a>
                     <a href="/github.com/drsimplegraffiti" className="home__social-icon"><i className='bx bxl-github' ></i></a>
                 </div>
 

@@ -1,9 +1,16 @@
-import { slide as Menu } from 'react-burger-menu'
+import React, { useState } from "react";
+import { slide as Menu } from 'react-burger-menu';
 
 
 
 const Navbar = () => {
-
+const [isMenuOpen, handleMenu] = useState(false);
+  const handleCloseMenu = () => {
+    handleMenu(false);
+  };
+  const handleStateChange = (state) => {
+    handleMenu(state.isOpen);
+  };
 
 
     return (
@@ -18,15 +25,17 @@ const Navbar = () => {
 
                 <div className="nav__menu" id="nav-menu">
                     <ul className="nav__list">
-                            <Menu  disableOverlayClick  right pageWrapId={ "page-wrap" } width={ '40%' } >
+                            <Menu  disableOverlayClick  right pageWrapId={"page-wrap"}
+        isOpen={isMenuOpen}
+        onStateChange={handleStateChange} width={ '40%' } >
                                 
                    
-                        <li className="nav__item"><a href="#home" className="nav__link active">Home</a></li>
-                        <li className="nav__item"><a href="#about" className="nav__link">About</a></li>
-                        <li className="nav__item"><a href="#skills" className="nav__link">Skills</a></li>
-                        <li className="nav__item"><a href="#work" className="nav__link">Graphics</a></li>
-                        <li className="nav__item"><a href="#projects" className="nav__link">Projects</a></li>
-                        <li className="nav__item"><a href="#contact" className="nav__link">Contact</a></li>
+                        <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#home" className="nav__link active">Home</a></li>
+                        <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#about" className="nav__link">About</a></li>
+                        <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#skills" className="nav__link">Skills</a></li>
+                        <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#work" className="nav__link">Graphics</a></li>
+                        <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#projects" className="nav__link">Projects</a></li>
+                        <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#contact" className="nav__link">Contact</a></li>
                       </Menu>
                     </ul>
                 </div>
