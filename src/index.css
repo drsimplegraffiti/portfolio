@@ -614,6 +614,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* ===== MEDIA QUERIES=====*/
 
+@media screen and (min-width: 1024px) {
+    .bd-grid {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* .home__img {
+        right: 10%;
+    }
+    .bm-burger-button {
+        margin-left: 90%;
+    } */
+}
+
 @media screen and (min-width: 768px) {
     body {
         margin: 0;
@@ -649,8 +662,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
     /* .nav__toggle {
         display: none;
     } */
-    .nav__link {
+    /* .nav__link {
         color: var(--second-color);
+    } */
+    .bm-overlay {
+        display: none;
     }
     .home {
         height: 100vh;
@@ -693,20 +709,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
         justify-items: center;
     }
     .bm-burger-button {
-        margin-left: 80%;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .bd-grid {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .home__img {
-        right: 10%;
-    }
-    .bm-burger-button {
-        display: none;
+        margin-left: 86%;
     }
 }
 
