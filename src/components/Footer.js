@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -7,7 +6,6 @@ const Footer = () => {
         <footer className="footer">
            <img className="logo" src="/img/logo.png" alt="" /> <p className="footer__title">Abayomi © 2021</p>
             <div className="footer__social">
-                {/* <Link to="/https://web.facebook.com/ogunnusi.J.simple/" className="footer__icon"><i className='bx bxl-facebook' ></i></Link> */}
                 <a href="https://web.facebook.com/ogunnusi.J.simple/" className="footer__icon"><i className='bx bxl-facebook' ></i></a>
                 <a href="https://www.instagram.com/drsimplegraffiti/" className="footer__icon"><i className='bx bxl-instagram' ></i></a>
                 <a href="https://twitter.com/drsimplegraffi1" className="footer__icon"><i className='bx bxl-twitter' ></i></a>
