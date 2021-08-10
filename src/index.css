@@ -75,6 +75,7 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
+    background-color: rgb(253, 253, 253);
 }
 
 h1,
@@ -99,6 +100,9 @@ img {
     display: block;
     width: 300%;
 }
+
+
+/*===== FOOTER LINK  ===== */
 
 
 /*===== CLASS CSS ===== */
@@ -716,6 +720,18 @@ Note: Beware of modifying this element as it can break the animations - you shou
 @media screen and (max-width:600px) {
     .bm-burger-button {
         margin-left: 80%;
+    }
+    .footer__title {
+        font-size: 1rem;
+    }
+    .logo {
+        padding: 0;
+    }
+    .footer__social {
+        margin: 0 auto;
+    }
+    .footer__title {
+        margin-bottom: 10px;
     }
 }
 

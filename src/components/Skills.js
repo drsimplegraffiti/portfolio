@@ -63,7 +63,7 @@ HTML5, CSS3, JavaScript, NodeJs, ExpressJs, MongodB, React Js, Bootstrap, Postma
                     </div>
                     
                     <div>              
-                        <img src="http://www.basicwebdesigning.com/wp-content/uploads/2018/04/Web-Design-1.jpg" alt="" className="skills__img" />
+                        <img src="/img/laptp-min.jpg" alt="" className="skills__img" />
                     </div>
                 </div>
             </section>

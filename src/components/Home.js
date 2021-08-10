@@ -17,7 +17,7 @@ const Home = () => {
                 </div>
 
                 <div className="home__img">    
-                    <img src="/img/pix.png" alt="" />
+                    <img src="/img/yomi.png" alt="the authors pics" />
                 </div>
             </section>
             </Zoom>

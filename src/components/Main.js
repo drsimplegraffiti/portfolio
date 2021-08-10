@@ -8,7 +8,7 @@ import Projects from '../components/Projects';
 
 const Main = () => {
     return (
-        <main class="l-main">
+        <main className="l-main">
 <Home />
 <About />
 <Skills />
