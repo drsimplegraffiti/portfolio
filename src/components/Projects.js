@@ -19,7 +19,7 @@ const Projects = () => {
                         <p>Pharmacy Management System</p>
                     </div>
                     <div className="work__img">
-                        <a href="/https://github.com/drsimplegraffiti/Cray_News"><img src="/img/cray.png" alt="cray pics" /></a>
+                        <a href="/https://github.com/drsimplegraffiti/Cray_News"><img src="/img/crayNews.jpg" alt="cray pics" /></a>
                         <p>Cray News Network</p>
                     </div>
                 </div>
