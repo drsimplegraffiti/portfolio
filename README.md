@@ -33,7 +33,7 @@ The template is a site for web developer portfolio. You can revamp and refactor 
 * Note that the project was made using the CREATE REACT APP i.e npx create-react-app .
 
 - [Demo](https://portfolio-liart-one-11.vercel.app/)
-
+- [Readme Generator used](https://rahuldkjain.github.io/gh-profile-readme-generator/)
 #### Use technology.
 
 The following technologies were used to create this project:
