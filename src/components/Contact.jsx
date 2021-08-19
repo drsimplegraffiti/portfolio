@@ -1,15 +1,23 @@
 import Zoom from 'react-reveal/Zoom';
 import emailjs from 'emailjs-com';
+  import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+
+
 
 const Contact = () => {
+const notify = () => toast("Thanks for contacting me");
+
+
     function sendEmail(e) {
         e.preventDefault();
-
         emailjs.sendForm('service_zyzcfot',
             'template_1753n84',
             e.target,
             'user_bpXSBo6dceZos4r9c1omo').then(res => {
                 console.log(res);
+          
+              
             }).catch(err => console.log(err));
 }
     return (
@@ -29,9 +37,21 @@ const Contact = () => {
                         <input 
                             type="submit"
                             value="Send"
-                            className="contact__button button"></input>
+                            className="contact__button button" onClick={notify} />
+                    
                     </form>
                 </div>
+                <ToastContainer
+                    position="bottom-right"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+                    />
             </section>
             </Zoom>
         
