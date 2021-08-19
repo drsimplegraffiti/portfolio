@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com';
 
 
 const Contact = () => {
-const notify = () => toast("Thanks for contacting me");
+const notify = () => toast("Message sent, Thanks for contacting me");
 
 
     function sendEmail(e) {
