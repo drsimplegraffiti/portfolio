@@ -15,10 +15,10 @@ const Contact = () => {
                 
 
                 <div className="contact__container bd-grid">
-                    <form action="https://formspree.io/f/xrgryvyw" method="POST" onSubmit={handleSubmit} className="contact__form">
+                    <form onSubmit={handleSubmit}  action="/https://formspree.io/f/xjvjpedw" method="POST" className="contact__form">
                            
-                        <input type="text" placeholder="Name" className="contact__input" />
-                        <input type="email" placeholder="Email" className="contact__input" />
+                        <input type="text" placeholder="Name" className="contact__input" name="name" />
+                        <input type="email" placeholder="Email" className="contact__input" name="email" />
                         <ValidationError 
         prefix="Email" 
         field="email"
@@ -30,7 +30,7 @@ const Contact = () => {
         field="message"
         errors={state.errors}
       />
-                        <input type="button" value="Submit" className="contact__button button" />
+                        <input type="button" disabled={state.submitting} value="Submit" className="contact__button button" />
                     </form>
                 </div>
             </section>
