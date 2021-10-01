@@ -13,15 +13,16 @@ import Footer from './components/Footer';
 
 
 const App = () => {
-   
+        //   const shouldDisplayButton = searchValue.length > 0;
+        // console.log(shouldDisplayButton);
     return (
         <>
-            <Router>
-               
+            <Router>    
         <Navbar />
+                        {/* {shouldDisplayButton &&  <button className={"btn"} onClick={handleClick}>clear</button>} */}
+
            {/* <Navbar2/> */}
-                    <Main />
-                   
+                    <Main />   
             <Footer />
             <Lines />
               {/* <Success /> */}
