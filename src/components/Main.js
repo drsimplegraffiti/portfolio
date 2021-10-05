@@ -4,6 +4,7 @@ import Skills from '../components/Skills';
 import Work from '../components/Work';
 import Contact from '../components/Contact';
 import Projects from '../components/Projects';
+import Blogs from '../components/Blogs';
 
 
 const Main = () => {
@@ -14,6 +15,7 @@ const Main = () => {
 <Skills />
 <Work />
 <Projects />
+<Blogs />
 <Contact />
         </main>
      );

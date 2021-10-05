@@ -34,6 +34,7 @@ const [isMenuOpen, handleMenu] = useState(false);
                         <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#about" className="nav__link">About</a></li>
                         <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#skills" className="nav__link">Skills</a></li>
                         <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#work" className="nav__link">Graphics</a></li>
+                        <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#blogs" className="nav__link">Blogs</a></li>
                         <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#projects" className="nav__link">Projects</a></li>
                         <li className="nav__item"><a onClick={() => handleCloseMenu()} href="#contact" className="nav__link">Contact</a></li>
                       </Menu>
